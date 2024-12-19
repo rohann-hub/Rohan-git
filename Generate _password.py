@@ -12,7 +12,7 @@ def generate_password(length = 12):
     return ''.join(secrets.choice(alphabet)
                    for _ in range(length))
 password = generate_password()
-print("your new password: {password}")
+print(f"your new password: {password}")
 
 
 ## HIDE you password 
